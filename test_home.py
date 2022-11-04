@@ -29,4 +29,6 @@ class TestHome():
     self.driver.find_element(By.CSS_SELECTOR, ".navbar-toggler-icon").click()
     # 4 | click | linkText=INICIO |  | 
     self.driver.find_element(By.LINK_TEXT, "INICIO").click()
+    # 5 | echo | hola | hola | 
+    print("hola")
   
